@@ -1,8 +1,8 @@
-#book_and_desc{
+#book_and_parameters{
     
 
     
-    height: 400px;
+    height: 260px;
     padding: 20px;
     
 }
@@ -11,8 +11,12 @@
 }
 #book{
     border: 2px solid black;
-    width: 800px;
-    margin-top: 20px;
-    margin-left: 50px;
-    display: inline-flex;
+    width: 500px;
+    height: 600px;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
